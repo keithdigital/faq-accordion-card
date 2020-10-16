@@ -1,0 +1,28 @@
+.faq-composition {
+  position: relative;
+  height: 60rem;
+  background-image: url("/images/illustration-woman-online-desktop.svg"), url("/images/bg-pattern-desktop.svg");
+  background-position: -6rem 10rem, -55rem -20rem;
+  background-repeat: no-repeat, no-repeat;
+
+  &__image {
+    position: absolute;
+    left: -29%;
+    top: 55%;
+    transform: translate(29%, -55%);
+    transition: $transition;
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    -o-transition: $transition;
+  }
+
+  &:hover &__image {
+    top: 53%;
+    transition: $transition;
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    -o-transition: $transition;
+  }
+}

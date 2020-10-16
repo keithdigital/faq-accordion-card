@@ -16,6 +16,4 @@
 
 .prettierignore
 
-# MD's
-*.md
-!style-guide.md
+node_modules/
